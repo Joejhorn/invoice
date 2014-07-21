@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Dish Invoice Tool</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="invoice.css">
+	<script src = "code.js"></script>
+
+</head>
+<body>
+<fieldset id = "fieldset">
+<legend id = "legend">Input Receipt Data</legend>
+<div id = "input">
+
+	<input id = "name" type = "text" name = "name" placeholder = "name" autofocus>
+	<input id = "time" type = "text" name ="time" placeholder = "time">
+	<input id = "edate" type = "text" name ="edate" placeholder = "date">
+	<input id = "people" type = "text" placeholder = "People">
+	<input id = "ppp" type = "text" placeholder = "Price per Person">
+	<input id = "deliveryFee" type = "text" placeholder = "Delivery Fee">
+	<br><br>
+	<label for = "taxyn">Taxable?</label>
+	<input id ="taxYN" type = "radio" name = "taxyn"><br><br>
+	<label for ="saladbar">Type of Menu</label><br>
+	<input id ="Salad" type = "radio" name = "SaladSand"> <label>Salad</label>
+	<input id ="Sand" type = "radio" name = "SaladSand"><label>Sand</label>
+	<input id ="TriChick" type = "radio" name ="SaladSand"><label>TriTipChix</label>
+	<input id ="Custom" type = "radio" name = "SaladSand"><ladbel>Custom</ladbel><br>
+
+<button id = "button" type="button">Submit!</button>
+</div>
+
+
+</fieldset>
+
+<header id = "dishlogo">
+
+<img src = "Dish-Cafe.jpg" alt = "Dish Cafe">
+</header>
+<div id = "container">
+<div>
+<p id = "companyName">DISH CAFE & CATERING</p>
+</div>
+<div id = "customerName">
+<p>To: Rich Jones</p>
+</div>
+<div id = "deliveryDetails">
+<p id = "deliveryDate">Date: July 17th, 2014</p>
+<p id = "deliveryTime">Time: 11:45</p>
+<p id = "deliveryPeople">Number of People: 10</p>
+</div>
+<div>
+<p>Menu</p>
+</div>
+<div id = "menuItems">
+<ul>
+	<li id = "item1">Dish Salad Bar</li>
+	<li id = "item2">Garlic Cheddar Bread</li>
+	<li id = "item3">Assorted Drinks</li>
+	<li id = "item4">Cookies</li>
+	<li>Paper goods and Serving ware</li>
+</ul>
+</div>
+
+<div>
+<p id = "summaryPaid">Total Due and Paid $290.00</p>
+</div>
+
+<footer id = "footer">
+<p>Dish Cafe</p>
+<p>855 Mill Street</p>
+<p>Reno, NV 89502</p>
+<p>775-348-8264</p>
+</footer>
+
+
+</div>
+
+</body>
+</html>

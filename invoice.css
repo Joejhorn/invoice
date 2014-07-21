@@ -1,0 +1,71 @@
+body {
+	width: 800px;
+	height: 1000px;
+	margin-left: 25px;
+	margin-top:20px;
+}
+#fieldset {
+	margin-top:50px;
+	margin-bottom: 10px;
+	border-style: double;
+	padding-bottom: 0px;
+	border-style: dashed;
+
+}
+
+#input {
+	margin-bottom: 0px;
+	
+}
+
+#button {
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+#dishlogo img
+{
+	height: 150px;
+	width: 100px;
+	margin-bottom: 25px;
+}
+
+#container {
+	font-family: sans-serif;
+
+}
+
+#customerName {
+	margin-top: 10px;
+
+}
+
+#deliveryDetails {
+
+}
+
+#deliveryDetails p {
+	padding:0px;
+	margin: 0px;
+}
+
+#button {
+	float: right;
+}
+
+#menuItems p {
+	padding: 0px;
+	margin: 0px;
+}
+
+#menuItems ul {
+	list-style: none;
+}
+#footer {
+	margin-top: 40px;
+}
+#footer p {
+		padding: 0px;
+		margin:0px;
+		
+	}
